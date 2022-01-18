@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: white;
+
+}
+
+li{
+    font-size: 20px;
+    
+}
+
+ul {
+  list-style-image: url("../img/rombo.jpg");
+}
