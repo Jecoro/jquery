@@ -43,6 +43,7 @@ var posicionSiguiente=1;
         document.getElementById("imagen_0").src=`${imagenes[posicionAnterior].nombre}`;
         document.getElementById("imagen_1").src=`${imagenes[posicion].nombre}`;
         document.getElementById("imagen_2").src=`${imagenes[posicionSiguiente].nombre}`;
+        $("#imagen_1").animate({zoom: '80%'}, "slow");
     }
 
     function mostrarAnterior(){
