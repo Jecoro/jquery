@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres En Raya</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+  <article class="pag">
+    <header></header>
+    <nav></nav>
+    <main>
+        <div class="menuPrincipal" id="menuPrincipal">
+            <button class="botonMP1" id="boton1">Nueva Partida</button>
+        </div>
+        <div class="menu2" id="menu2">
+            <div class="botones">
+              <button class="botonM2-1" id="boton2">Volver al menu menuPrincipal</button>
+              <button class="botonM2-2" id="boton3">Jugar</button>
+            </div>
+            <div class="datos">
+              <form name="formulario" id="formulario">
+              <label for="jug1">Jugador 1:</label>
+              <input type="text" id="j1name" name="j1name" class="entradaTexto"><br><br>
+              <label for="jug2">Jugador 2:</label>
+              <input type="text" id="j2name" name="j2name" class="entradaTexto"><br><br>
+              <label for="tematica">Tematica:</label>
+              <select name="tematica" id="tematica" class="entradaTexto" required>
+                <option value="1"selected="true">Clasico</option>
+                <option value="2">Avengers</option>
+              </select>
+            </form>
+            </div>
+                        
+        </div>
+        <div class="tablero" id="tablero">
+          <div id = "mensaje" class="mensaje"></div>
+          <div class="casillas">
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+            <div class="cuadro"></div>
+          </div>
+          <div id ="revancha" class="botonRevancha">Volver a jugar</div>
+          <div id ="regresarMp" class="botonVolverMP" onclick="location.reload()">Menu Principal</div>
+        </div>
+    </main>
+    <aside></aside>
+    <footer></footer>
+  </article>  
+  
+</body>
+</html>
